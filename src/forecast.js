@@ -14,7 +14,7 @@ const forecast=(address,callback) =>{
         else if(body.error) callback('Unable to find the location',undefined)
 
         else {
-            callback(undefined,`the maximum temperature of ${address} is ${body.main.temp_max-273.15} and the minimum temperature of ${address} is ${body.main.temp_min-273.15} and Weather condition is ${body.weather[0].main} and current temperature is ${body.main.temp-273.15}`)
+            callback(undefined,`the maximum temperature of ${address} is ${body.main.temp_max-273.15} and the minimum temperature of ${address} is ${body.main.temp_min-273.15} and Weather condition is ${body.weather[0].main} and current temperature is ${body.main.temp-273.15}. Wind speed is ${body.wind.speed}.Country name :${body.sys.country}`)
 
         }
     })

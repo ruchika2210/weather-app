@@ -42,7 +42,7 @@ app.get('/about',(req,res) =>{
 app.get('/help',(req,res) =>{
     res.render('help',{
         name:'Ruchika Gohil',
-        title:'Dont hesitate to take help'
+        title:'Here to help you '
     })
 })
 
