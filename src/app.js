@@ -27,7 +27,7 @@ hbs.registerPartials(partialsPath)
 app.use(express.static(publicdirectorypath))
 app.get('',(req,res) =>{
     res.render('index',{   //noe providing dynamic data to handlebars
-        title:'weather app',
+        title:'Weather application',
         name:'Ruchika gohil'
     })
 })

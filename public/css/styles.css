@@ -9,7 +9,7 @@ body{
     min-height: 100vh;
 }
 footer{
-    color:   #888888;;
+    color:  white;
     padding:16px 0;
     margin-top: 16px;
     border-top: 1px solid #eeeeee;
@@ -21,9 +21,10 @@ header{
 h1{
     font-size: 64px;
     margin-bottom: 16px;
+    color: white;
 }
 header a{
-    color: #888888;
+    color: white;
     margin-right: 16px;
     text-decoration:none;
 
@@ -47,4 +48,10 @@ button{
     background: #888888;
     color: white;
     padding:8px;
+}
+body{
+    background:black;
+}
+p{
+    color: white;
 }
